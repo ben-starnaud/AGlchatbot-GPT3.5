@@ -1,0 +1,29 @@
+.chat-bubble-receive p {
+  background: #d9d5d5;
+  color: #000 !important;
+  border-radius: 20px 20px 20px 3px;
+  display: block;
+  max-width: 75%;
+  padding: 7px 13px 7px 13px;
+  position: absolute;
+  left: 0; /* Align bot messages to the right */
+  }
+  
+  .chat-bubble-send p {
+    background: hsl(188, 88%, 87%);
+    color: #000 !important;
+    border-radius: 20px 20px 20px 3px;
+    display: block;
+    max-width: 75%;
+    padding: 7px 13px 7px 13px;
+    position: absolute;
+    right: 0; /* Align bot messages to the right */
+  }
+  
+  
+  .card-body {
+    flex: 1 1 auto;
+    padding: 2.5rem 2.5rem;
+
+  }
+  
