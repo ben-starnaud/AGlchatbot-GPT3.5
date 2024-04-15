@@ -5,7 +5,7 @@ import ChatBubble from './components/ChatBubble'; // Import ChatBubble component
 
 import OpenAI from 'openai'; // Import OpenAI
 
-const openai = new OpenAI({ apiKey: '', dangerouslyAllowBrowser: true }); // Replace 'your_api_key_here' with your actual OpenAI API key
+const openai = new OpenAI({ apiKey: '', dangerouslyAllowBrowser: true }); 
 
 function App() {
   const [messages, setMessages] = useState([]);
